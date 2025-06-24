@@ -1,5 +1,5 @@
-import { getFlightOffers } from "@src/services/flight.service";
-import { flightOffersSearchValidation } from "@src/validations/flight.scheme";
+import { getFlightOffers } from "../services/flight.service";
+import { flightOffersSearchValidation } from "../validations/flight.scheme";
 import { Response, Request } from "express";
 import asyncHandler from "express-async-handler";
 

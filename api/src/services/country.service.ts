@@ -1,6 +1,6 @@
-import { Country } from "@src/types/geo.types";
+import { Country } from "../types/geo.types";
 import axios from "axios";
-import countryImages from "@src/data/counties.images.json" assert { type: "json" };
+import countryImages from "../data/counties.images.json" assert { type: "json" };
 let cachedCountries: Country[] = [];
 
 const bannedCountries = [

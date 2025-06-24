@@ -1,4 +1,4 @@
-import { fetchFlightOffers } from "@src/controllers/flight.controller";
+import { fetchFlightOffers } from "../controllers/flight.controller";
 import { Router } from "express";
 
 export const createFlightRoutes = () => {

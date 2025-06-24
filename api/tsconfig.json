@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "module": "ESNext", // Use ESNext for ESM
-    "target": "ES2024", // Target modern ECMAScript versions
+    "target": "es2024", // Target modern ECMAScript versions
     "moduleResolution": "node",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
@@ -15,7 +15,9 @@
     "baseUrl": ".", // Allow absolute imports relative to project root
     "paths": {
       "*": ["node_modules/*"],
-      "@src/*": ["src/*"]
+      "@src/*": ["src/*"],
+      "@prisma/*": ["generated/prisma/*"]
     }
-  }
+  },
+  "include": ["src/**/*"]
 }

@@ -1,5 +1,4 @@
-import { getCountries } from "@src/controllers/geo.controller";
-import { fetchCountryImage } from "@src/controllers/unsplash.controller";
+import { fetchCountryImage } from "../controllers/unsplash.controller";
 import { Router } from "express";
 
 export const createUnsplashRoutes = () => {

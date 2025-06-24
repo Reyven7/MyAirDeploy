@@ -1,6 +1,6 @@
-import { amadeusClient } from "@src/lib/amadeus.client";
-import { AppError } from "@src/lib/app-error.class";
-import { flightOffersSearchValidation } from "@src/validations/flight.scheme";
+import { amadeusClient } from "../lib/amadeus.client";
+import { AppError } from "../lib/app-error.class";
+import { flightOffersSearchValidation } from "../validations/flight.scheme";
 import { z } from "zod";
 
 const AMADEUS_FLIGHT_URL = "https://api.amadeus.com/v2/shopping/flight-offers";

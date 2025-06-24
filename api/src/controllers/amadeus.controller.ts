@@ -1,8 +1,8 @@
 import {
   getAmadeusAccessToken,
   getLocation,
-} from "@src/services/amadeus.service";
-import { locationValidation } from "@src/validations/amadeus.scheme";
+} from "../services/amadeus.service";
+import { locationValidation } from "../validations/amadeus.scheme";
 import { Response, Request } from "express";
 import asyncHandler from "express-async-handler";
 

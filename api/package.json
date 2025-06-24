@@ -4,14 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "migrate": "npx prisma migrate dev",
-    "dev": "npx tsx --watch src/app.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsup src/**/*.ts --format esm --out-dir dist --clean --dts",
+    "start": "node dist/app.js",
+    "dev": "tsx --watch src/app.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
     "@prisma/client": "^6.9.0",
     "axios": "^1.9.0",
@@ -20,6 +20,7 @@
     "express": "^5.1.0",
     "express-async-handler": "^1.2.0",
     "prisma": "^6.9.0",
+    "tsconfig-paths": "^4.2.0",
     "unsplash-js": "^7.0.19",
     "zod": "^3.25.56"
   },
@@ -27,6 +28,8 @@
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.3",
     "@types/node": "^22.15.30",
+    "tsc-alias": "^1.8.16",
+    "tsup": "^8.5.0",
     "tsx": "^4.19.4",
     "typescript": "^5.8.3"
   }

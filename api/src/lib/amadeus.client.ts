@@ -1,4 +1,4 @@
-import { getAmadeusAccessToken } from "@src/services/amadeus.service";
+import { getAmadeusAccessToken } from "../services/amadeus.service";
 import axios from "axios";
 
 export const amadeusClient = axios.create({

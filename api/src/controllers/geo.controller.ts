@@ -1,9 +1,9 @@
 import {
   fecthCountries,
   getCountriesWithImage,
-} from "@src/services/country.service";
+} from "../services/country.service";
 import { Request, Response } from "express";
-import citiesDataRaw from "@src/data/cities.json";
+import citiesDataRaw from "../data/cities.json";
 import asyncHandler from "express-async-handler";
 
 const citiesData: any[] = citiesDataRaw as any[];

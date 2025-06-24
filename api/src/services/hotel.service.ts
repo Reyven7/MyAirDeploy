@@ -1,8 +1,8 @@
 
 
-import { amadeusClient } from "@src/lib/amadeus.client";
-import { AppError } from "@src/lib/app-error.class";
-import { hotelOffersSearchValidation } from "@src/validations/hotel.scheme";
+import { amadeusClient } from "../lib/amadeus.client";
+import { AppError } from "../lib/app-error.class";
+import { hotelOffersSearchValidation } from "../validations/hotel.scheme";
 import z from "zod";
 
 

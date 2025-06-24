@@ -10,11 +10,11 @@ if (!GOOGLE_API_KEY) {
   process.exit(1);
 }
 
-import { createAmadeusRoutes } from "@src/routes/amadeus.routes";
-import { createFlightRoutes } from "@src/routes/flight.routes";
-import { createHotelRoutes } from "@src/routes/hotel.routes";
-import { errorHadler } from "@src/middleware/error.middleware";
-import { createGeoRoutes } from "@src/routes/geo.routes";
+import { createAmadeusRoutes } from "./routes/amadeus.routes";
+import { createFlightRoutes } from "./routes/flight.routes";
+import { createHotelRoutes } from "./routes/hotel.routes";
+import { errorHadler } from "./middleware/error.middleware";
+import { createGeoRoutes } from "./routes/geo.routes";
 import { createUnsplashRoutes } from "./routes/unsplash.routes";
 export const app = express();
 

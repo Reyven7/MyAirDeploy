@@ -1,4 +1,4 @@
-import { fetchHotelOffersByCity } from "@src/controllers/hotel.controller";
+import { fetchHotelOffersByCity } from "../controllers/hotel.controller";
 import { Router } from "express";
 
 export const createHotelRoutes = () => {

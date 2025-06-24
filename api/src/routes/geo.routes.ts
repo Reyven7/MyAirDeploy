@@ -3,7 +3,7 @@ import {
   fetchCountriesWithImage,
   getCities,
   getCountries,
-} from "@src/controllers/geo.controller";
+} from "../controllers/geo.controller";
 
 export const createGeoRoutes = () => {
   const router = Router();

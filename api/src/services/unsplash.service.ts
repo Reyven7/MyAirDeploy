@@ -1,4 +1,4 @@
-import { AppError } from "@src/lib/app-error.class";
+import { AppError } from "../lib/app-error.class";
 import { createApi } from "unsplash-js";
 
 const unsplash = createApi({

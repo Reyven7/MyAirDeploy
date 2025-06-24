@@ -1,7 +1,7 @@
 import {
   amadeusAuth,
   fetchLocation,
-} from "@src/controllers/amadeus.controller";
+} from "../controllers/amadeus.controller";
 import { Router } from "express";
 
 export const createAmadeusRoutes = () => {

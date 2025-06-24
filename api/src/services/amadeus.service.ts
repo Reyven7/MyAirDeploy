@@ -1,5 +1,5 @@
-import { amadeusClient } from "@src/lib/amadeus.client";
-import { locationValidation } from "@src/validations/amadeus.scheme";
+import { amadeusClient } from "../lib/amadeus.client";
+import { locationValidation } from "../validations/amadeus.scheme";
 import axios from "axios";
 import z from "zod";
 
